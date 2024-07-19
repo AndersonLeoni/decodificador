@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #AAB2D5;
+    min-height: 100vh;
+}
+
+.campo__digitavel {
+    background-color: #AAB2D5;
+    width: 680px;
+    height: 48px;
+    color:#052051;
+}
+
+
+.campo__digitavel::placeholder {
+    font-size: 32px;
+    color: #052051;
+}
+
+.container__botao {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #052051;
+    color:#D9D9D9;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    margin-top: auto;
+    text-align: center;
+    background-color: #052051;
+    color: #AAB2D5;
+    font-weight: bold;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
