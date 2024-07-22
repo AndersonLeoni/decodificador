@@ -29,13 +29,14 @@ body {
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
 
 
 }
 
 
 .left-side {
-    width: auto;
+    width: 50%;
 
 }
 
@@ -190,4 +191,26 @@ footer {
 
   .esconder {
     display: none;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-side {
+      width: 100%;
+    }
+    .right-side {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .left-side {
+      width: 100%;
+    }
+    .right-side {
+      width: 100%;
+    }
   }
