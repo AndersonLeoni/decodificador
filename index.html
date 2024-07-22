@@ -12,11 +12,11 @@
     <div class="container">
         <div class="left-side">
             <div class="logo">
-                <p>A</p>
+                <p>EncripTool</p>
             </div>
 
             <div class="container__textarea">
-                <textarea name="" id="" class="digite_texto" placeholder="Digite seu texto"></textarea>
+                <textarea name="" id="textareaFn" class="digite_texto" placeholder="Digite seu texto"></textarea>
             </div>
             <div class="info">
                 <p class="btn__group__p">Apenas letras minúsculas e sem acento.</p>
@@ -28,12 +28,17 @@
             </div>
         </div>
         <div class="right-side">
-            <img src="/assets/High quality products 1 1.svg" alt="Ilustração">
-            <p>Nenhuma mensagem encontrada</p>
-            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <img id="imagem" src="/assets/High quality products 1 1.svg" alt="Ilustração" >
+            <p class="saida" id="saida">Nenhuma mensagem encontrada</p>
+            <p id="frase">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+            <button class="copiar" id="botaoCopiar">Copiar</button>
+
         </div>
     </div>
     <footer>Desenvolvido por Anderson Leoni</footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

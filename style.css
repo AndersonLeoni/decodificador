@@ -17,12 +17,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#EFF1FA;
+    background-color: #757FB2;
     margin: 0;
 }
 
 .container {
     display: flex;
+    font-family: "Inter", sans-serif;
     gap: 50px;
     background-color: #EFF1FA;
     border-radius: 10px;
@@ -32,9 +33,16 @@ body {
 
 }
 
+
 .left-side {
     width: auto;
 
+}
+
+.logo {
+    font-family: "Inter", sans-serif;
+    font-size: 60px;
+    color: #052051;
 }
 
 .container__textarea {
@@ -47,6 +55,8 @@ body {
     background-color: #EFF1FA;
     border: none;
     margin-top: 30px;
+    font-family: "Inter", sans-serif;
+font-size: 20px;
 }
 
 .digite_texto::placeholder {
@@ -57,7 +67,7 @@ body {
 .info {
     display: flex;
     flex-direction: column;
-    bottom: 50px; /* ajuste o valor para deixar um espaço no centro da página */
+    bottom: 50px; 
     width: 40%;
     color: #777;
     font-size: 16px;
@@ -109,6 +119,21 @@ button {
     background-color: #5a6268;
 }
 
+button.copiar {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+.copiar {
+    background-color: #007bff;
+    color: white;
+}
+.copiar:hover {
+    background-color: #0056b3;
+}
+
+
 .right-side {
     display: flex;
     flex-direction: column;
@@ -155,5 +180,14 @@ footer {
     background-color: #f5f5f5;
     padding: 10px;
     text-align: center;
-    border-top: 1px solid #ccc;
+
+  }
+
+  footer {
+    background-color: #0056b3;
+    color: #EFF1FA ;
+  }
+
+  .esconder {
+    display: none;
   }
