@@ -9,8 +9,8 @@ Este repositório contém um projeto de criptografia e descriptografia de texto 
 
 ### Criptografar texto
 
-* Utiliza algoritmos de criptografia avançados
-* Possibilidade de copiar e colar texto criptografado
+* Criptografe textos de forma simples
+* Possibilidade de copiar e colar texto criptografado e descriptografa-los
 
 ### Descriptografar texto
 
