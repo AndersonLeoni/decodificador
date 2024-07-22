@@ -20,7 +20,7 @@ Este repositório contém um projeto de criptografia e descriptografia de texto 
 ### Interface de usuário
 
 * Fácil de usar e intuitiva
-* Possibilidade de selecionar o algoritmo de criptografia desejado
+* Possibilidade de copiar o texto utilizando um botão
 
 ## Tecnologias Utilizadas
 
